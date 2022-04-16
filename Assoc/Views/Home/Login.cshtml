@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+@if (TempData["msg"] != null) { 
+    <span class="label-danger">@TempData["msg"] </span>
+}
+
+<form action="/Home/Login" method="Post">
+    <input type="text" name="Username" placeholder="Username"><br>
+    <input type="password" name="password" placeholder="password"><br>
+    <input type="submit" value="login" class="btn btn-success">
+</form>
+
+

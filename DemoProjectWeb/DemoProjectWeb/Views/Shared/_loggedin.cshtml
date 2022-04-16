@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    <title>Logged in</title>
+</head>
+<body>
+    <h3 class="label-info">This is your home page</h3>
+
+    <div>
+        <a class="btn btn-success" href="/Home/Home">Home</a>
+        <a class="btn btn-danger" href="/Home/List">list</a>
+    </div>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <div>
+        &copy; Adv .Net Spring 2021-2022
+    </div>
+</body>
+</html>

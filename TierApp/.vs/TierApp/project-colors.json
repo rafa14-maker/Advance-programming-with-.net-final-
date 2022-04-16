@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cd492e3a-1564-4467-b54d-dea6741e4f5b": {
+      "ProjectGuid": "cd492e3a-1564-4467-b54d-dea6741e4f5b",
+      "DisplayName": "TierApp",
+      "ColorIndex": 0
+    },
+    "9c70962e-1b18-4c00-818a-bd98500da0c2": {
+      "ProjectGuid": "9c70962e-1b18-4c00-818a-bd98500da0c2",
+      "DisplayName": "DataAccessLayer",
+      "ColorIndex": 1
+    },
+    "2c7f6b9f-3fa4-4bb9-9091-ffc5e85fa265": {
+      "ProjectGuid": "2c7f6b9f-3fa4-4bb9-9091-ffc5e85fa265",
+      "DisplayName": "BussinessLogicLayer",
+      "ColorIndex": 2
+    },
+    "23b7f815-0e7d-4521-9958-ee72374b4fbb": {
+      "ProjectGuid": "23b7f815-0e7d-4521-9958-ee72374b4fbb",
+      "DisplayName": "ConsoleTierApp",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
